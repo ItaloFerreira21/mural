@@ -1,23 +1,33 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     background-color: #3a2e39;
 }
 
 .principal {
+    height: 100%;
+    height: 100%;
     overflow: hidden;
 }
 
 .imagens{
+    
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 10px;
+
+    padding: 25px 20px 0px 20px;
 
 }
 li img {
     width: 300px;
-    max-height: 600px;
+    max-height: 500px;
+    background-size: cover;
     
     
 }
@@ -29,5 +39,6 @@ li img {
         justify-items: center;
         flex-direction: column;
         gap: 10px;
+        padding-bottom: 10px;
     }
 }
